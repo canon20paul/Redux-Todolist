@@ -13,8 +13,10 @@ export default function Todolist() {
     })
 
   return (
-    <div>
+    <div className='row justify-content-center mt-5'>
+    <div className='col-md-6 p-3' style={{backgroundColor:'white', borderRadius:'10px'}}>
     {taskitems}
     </div>
+      </div>
   )
 }
